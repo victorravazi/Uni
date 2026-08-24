@@ -1,0 +1,82 @@
+Atribútos prioritários
+
+Segurança, simplicidade e consistẽncia.
+
+Decisões
+
+1 - Segurança
+
+Implementar Https, autenticação de segurança, criptografia e proteção contra ataques em geral.
+
+2 - Simplicidade
+
+Diminuir dependẽncias, Design robusto, mantendo o mais simples possível.
+
+
+3 - Consistẽncia
+
+Com um sistema simples, robusto e seguro, a plataforma fica muito mais consistente e facil de manter.
+
+
+Trade-Off
+
+Visual, por ser uma plataforma mais simples, não terá um visual tão bonito pois será minimalista.
+
+
+Riscos e como observá-los
+
+Escalabilidade, por ser uma plataforma mais simples, pode ser que não seja tão escalável, ainda assim podemos utilizar ferramentas para fazer testes e observar a plataforma
+
+
+Teste a decisão antes de chamar de arquitetura
+
+Segurança
+
+1. Qual atributo de qualidade ela habilita?
+A segurança habilita a proteção dos dados dos clientes e das informações do sistema.
+
+2. Que problema concreto resolve agora?
+Protege contra acessos não autorizados, roubo de informações e fraudes durante os pagamentos.
+
+3. Qual complexidade adiciona?
+Adiciona autenticação, controle de acesso, criptografia e outras formas de proteção.
+
+4. Como saberemos se funcionou?
+Quando houver redução de falhas de segurança e nenhum acesso indevido às informações.
+
+5. Como poderá ser alterada depois?
+Pode receber novos métodos de autenticação, permissões e formas de proteção.
+
+Consistência
+
+1. Qual atributo de qualidade ela habilita?
+A consistência garante que os dados do sistema permaneçam corretos e atualizados.
+
+2. Que problema concreto resolve agora?
+Evita problemas como vender um produto que já está sem estoque ou registrar um pagamento sem criar corretamente o pedido.
+
+3. Qual complexidade adiciona?
+Adiciona validações, regras e mecanismos para manter os dados sincronizados.
+
+4. Como saberemos se funcionou?
+Quando não houver divergências entre estoque, pedidos e pagamentos.
+
+5. Como poderá ser alterada depois?
+As regras podem ser modificadas conforme novos produtos, formas de pagamento ou funcionalidades forem adicionados.
+
+Simplicidade
+
+1. Qual atributo de qualidade ela habilita?
+A simplicidade melhora a usabilidade para os clientes e facilita a manutenção do sistema.
+
+2. Que problema concreto resolve agora?
+Evita que a plataforma tenha processos de compra complicados e difíceis de entender.
+
+3. Qual complexidade adiciona?
+Pode limitar algumas funcionalidades mais complexas, mas busca manter o sistema organizado e fácil de entender.
+
+4. Como saberemos se funcionou?
+Quando os clientes conseguirem realizar compras com poucos erros e os desenvolvedores conseguirem fazer alterações com facilidade.
+
+5. Como poderá ser alterada depois?
+Novas funcionalidades poderão ser adicionadas mantendo o sistema organizado e fácil de utilizar.
