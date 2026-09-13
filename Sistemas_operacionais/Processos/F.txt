@@ -1,0 +1,1 @@
+Pesquisando, é dito que isso acontece pois o cd é um tipo builtin do shell, construido com ele proprio, e isso é necessário pois o shell precisa do cd para fazer mudanças de diretorio e coisas do tipo

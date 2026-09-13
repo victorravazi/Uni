@@ -1,0 +1,2 @@
+PS é mais preciso, melhor para escolher colunas especificas e até mais facil em algumas partes
+top é melhor para você ver o sistema em tempo real, ver quanto de ram esta sendo utilizada no momento, % de CPU, % de memoria e coisas do tipo.
